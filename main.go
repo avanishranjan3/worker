@@ -22,5 +22,5 @@ func main() {
 	mux.HandleFunc(Tasks.TaskType, Tasks.HandleUserdtl)
 	worker.Run(mux)
 
-	fmt.Println("Main Ends!")
+	fmt.Println("Main Ends! ")
 }
